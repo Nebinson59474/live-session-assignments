@@ -1,0 +1,25 @@
+animals={
+    "reptile":"lizard",
+    "diet":"insects",
+    "nature":"cold blooded",
+    "role":"predator"}
+x=animals.values()
+print(x)
+animals.update({"rarity":"common"})
+print(animals)
+x=animals.setdefault("diet","food")
+print(x)
+animals.popitem()
+print(animals)
+animals.pop("role")
+print(animals)
+animals.keys()
+print(x)
+x=animals.items()
+print(x)
+x=animals.get("reptile")
+print(x)
+x=animals.copy()
+print(x)
+animals.clear()
+print(animals)
